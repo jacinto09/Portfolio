@@ -1,3 +1,16 @@
+import {
+  mobile,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  git,
+  threejs
+} from '../assets'
 export const navLinks = [
   {
     id: 'about',
@@ -12,69 +25,69 @@ export const navLinks = [
     title: 'Contact'
   }
 ]
-// const services = [
-//   {
-//     title: 'Web Developer',
-//     icon: web
-//   },
-//   {
-//     title: 'React Native Developer',
-//     icon: mobile
-//   }
-// ]
-// const technologies = [
-//   {
-//     name: 'HTML 5',
-//     icon: html
-//   },
-//   {
-//     name: 'CSS 3',
-//     icon: css
-//   },
-//   {
-//     name: 'JavaScript',
-//     icon: javascript
-//   },
-//   {
-//     name: 'TypeScript',
-//     icon: typescript
-//   },
-//   {
-//     name: 'React JS',
-//     icon: reactjs
-//   },
-//   {
-//     name: 'Redux Toolkit',
-//     icon: redux
-//   },
-//   {
-//     name: 'Tailwind CSS',
-//     icon: tailwind
-//   },
-//   {
-//     name: 'Three JS',
-//     icon: threejs
-//   },
-//   {
-//     name: 'git',
-//     icon: git
-//   }
-// ]
-// const experiences = [
-//   {
-//     title: 'React.js Developer',
-//     company_name: 'Starbucks',
-//     icon: starbucks,
-//     iconBg: '#383E56',
-//     date: 'March 2020 - April 2021',
-//     points: [
-//       'Developing and maintaining web applications using React.js and other related technologies.',
-//       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-//       'Implementing responsive design and ensuring cross-browser compatibility.',
-//       'Participating in code reviews and providing constructive feedback to other developers.'
-//     ]
-//   }
-// ]
+export const services = [
+  {
+    title: 'Web Developer',
+    icon: web
+  },
+  {
+    title: 'React Native Developer',
+    icon: mobile
+  }
+]
+export const technologies = [
+  {
+    name: 'HTML 5',
+    icon: html
+  },
+  {
+    name: 'CSS 3',
+    icon: css
+  },
+  {
+    name: 'JavaScript',
+    icon: javascript
+  },
+  {
+    name: 'TypeScript',
+    icon: typescript
+  },
+  {
+    name: 'React JS',
+    icon: reactjs
+  },
+  {
+    name: 'Redux Toolkit',
+    icon: redux
+  },
+  {
+    name: 'Tailwind CSS',
+    icon: tailwind
+  },
+  {
+    name: 'Three JS',
+    icon: threejs
+  },
+  {
+    name: 'git',
+    icon: git
+  }
+]
+export const experiences = [
+  {
+    title: 'Frontend Developer',
+    company_name: 'Miguel Catalán',
+    icon: reactjs,
+    iconBg: '#383E56',
+    date: 'February  2022 - August  2022',
+    points: [
+      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Designing and implementing user interfaces for web applications.',
+      'Improving SEO and accessibility of web applications.',
+      'Implementing a database for booking appointments '
+    ]
+  }
+]
 
 // const projects = [
 //   {

@@ -20,7 +20,7 @@
 }
 
 .black-gradient {
-  background: #000000; /* fallback for old browsers */
+  background: #000000; /* for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #434343,
@@ -43,14 +43,14 @@
   );
 }
 
-.green-pink-gradient {
+.yellow-purple-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #eeee4d 1.9%, #bf61ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #eeee4d 1.9%, #bf61ff 97.5%);
 }
 
 .orange-text-gradient {
-  background: #f12711; /* fallback for old browsers */
+  background: #f12711; /* for old browsers */
   background: -webkit-linear-gradient(
     to top,
     #f12711,
