@@ -26,12 +26,11 @@ function Navbar () {
               <li
                 key={link.id}
                 className={`${active === link.title ? 'text-white' : 'text-secondary'} hover:text-white text-[18px] font-medium cursor-pointer`}
-                onClick={(e) => {
-                  e.preventDefault()
+                onClick={() => {
                   setActive(link.title)
                 }}
               >
-                <a href={`${link.id}`}>{link.title}</a>
+                <a href={`#${link.id}`}>{link.title}</a>
               </li>
             ))
           }
@@ -55,7 +54,7 @@ function Navbar () {
                   setToggle(!toggle)
                 }}
               >
-                <a href={`${link.id}`}>{link.title}</a>
+                <a href={`#${link.id}`}>{link.title}</a>
               </li>
             ))
           }

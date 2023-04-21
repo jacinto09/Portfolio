@@ -5,6 +5,5 @@ import Hero from './Hero'
 import Works from './Works'
 import NavBar from './Navbar'
 import Tech from './Tech'
-import StarsCanvas from './StarsCanvas'
-
+import { StarsCanvas } from './canvas'
 export { About, Contact, Experience, Hero, Works, NavBar, Tech, StarsCanvas }
