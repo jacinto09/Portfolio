@@ -13,8 +13,9 @@ import redux from './tech/redux.png'
 import tailwind from './tech/tailwind.png'
 import typescript from './tech/typescript.png'
 import threejs from './tech/threejs.svg'
-import carrent from './carrent.png'
-import jobit from './jobit.png'
-import tripguide from './tripguide.png'
+import meals from './meals.webp'
+import jobs from './jobs.webp'
+import router from './router.webp'
+import spoty from './spotifyclone.webp'
 
-export { logo, close, menu, mobile, web, github, css, git, html, javascript, reactjs, redux, tailwind, typescript, threejs, carrent, jobit, tripguide }
+export { logo, close, menu, mobile, web, github, css, git, html, javascript, reactjs, redux, tailwind, typescript, threejs, jobs, meals, spoty, router }

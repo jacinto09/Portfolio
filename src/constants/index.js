@@ -10,9 +10,10 @@ import {
   tailwind,
   git,
   threejs,
-  tripguide,
-  carrent,
-  jobit
+  router,
+  spoty,
+  jobs,
+  meals
 } from '../assets'
 export const navLinks = [
   {
@@ -94,71 +95,91 @@ export const experiences = [
 
 export const projects = [
   {
-    name: 'Car Rent',
+    name: 'Router for React with npm package',
     description:
-        'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+    'Router with basic React capabilities, compiled with SWC and deployed in npm',
     tags: [
       {
-        name: 'react',
+        name: 'React',
         color: 'blue-text-gradient'
       },
       {
-        name: 'mongodb',
+        name: 'Vitest',
         color: 'green-text-gradient'
       },
       {
-        name: 'tailwind',
+        name: 'SWC',
         color: 'pink-text-gradient'
       }
     ],
-    image: carrent,
-    sourceCodeLink: 'https://github.com/'
+    image: router,
+    sourceCodeLink: 'https://github.com/jacinto09/jacinto-router'
   },
   {
-    name: 'Job IT',
+    name: 'Job App',
     description:
         'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
     tags: [
       {
-        name: 'react',
+        name: 'React Native',
         color: 'blue-text-gradient'
       },
       {
-        name: 'restapi',
+        name: 'Expo router',
         color: 'green-text-gradient'
       },
       {
-        name: 'scss',
+        name: 'Axios',
         color: 'pink-text-gradient'
       }
     ],
-    image: jobit,
-    sourceCodeLink: 'https://github.com/'
+    image: jobs,
+    sourceCodeLink: 'https://github.com/jacinto09/react-native-app'
   },
   {
-    name: 'Trip Guide',
+    name: 'Spotify Clone',
     description:
-        'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+    'Spotify clone using React, Redux, react-router and Tailwind, API management with axios',
     tags: [
       {
-        name: 'nextjs',
+        name: 'React',
         color: 'blue-text-gradient'
       },
       {
-        name: 'supabase',
+        name: 'React Router',
         color: 'green-text-gradient'
       },
       {
-        name: 'css',
+        name: 'Redux',
         color: 'pink-text-gradient'
       }
     ],
-    image: tripguide,
-    sourceCodeLink: 'https://github.com/'
+    image: spoty,
+    sourceCodeLink: 'https://github.com/jacinto09/spotify-clone'
+  },
+  {
+    name: 'Meals Finder',
+    description:
+    'Web application to find the perfect recipe with the desired ingredients',
+    tags: [
+      {
+        name: 'React',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'React Router',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'Next UI',
+        color: 'pink-text-gradient'
+      }
+    ],
+    image: meals,
+    sourceCodeLink: 'https://github.com/jacinto09/meals'
   }
 ]
 
-// template_ealn74h Gmail:service_wy71x5q Key: r54DMzEQbrxto_D9c
 export const keys = {
   service: 'service_wy71x5q',
   template: 'template_ealn74h',
