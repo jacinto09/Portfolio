@@ -17,5 +17,6 @@ import meals from './meals.webp'
 import jobs from './jobs.webp'
 import router from './router.webp'
 import spoty from './spotifyclone.webp'
+import youtube from './youtube.webp'
 
-export { logo, close, menu, mobile, web, github, css, git, html, javascript, reactjs, redux, tailwind, typescript, threejs, jobs, meals, spoty, router }
+export { logo, close, menu, mobile, web, github, css, git, html, javascript, reactjs, redux, tailwind, typescript, threejs, jobs, meals, spoty, router, youtube }

@@ -48,7 +48,7 @@ function About () {
         I'm a frontend developer with experience in ReactJS and its environment with tools like Redux, React-router and React native,
         technical and design skills, and committed to collaboration and teamwork.
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center'>
         {
           services.map((service, index) => (
             <ServiceCard key={service.title} index={index} {...service} />

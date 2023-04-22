@@ -13,7 +13,8 @@ import {
   router,
   spoty,
   jobs,
-  meals
+  meals,
+  youtube
 } from '../assets'
 export const navLinks = [
   {
@@ -177,6 +178,27 @@ export const projects = [
     ],
     image: meals,
     sourceCodeLink: 'https://github.com/jacinto09/meals'
+  },
+  {
+    name: 'Youtube Clone',
+    description:
+    'Youtube Clone with basic functionality',
+    tags: [
+      {
+        name: 'React',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'React Player',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'Material-UI',
+        color: 'pink-text-gradient'
+      }
+    ],
+    image: youtube,
+    sourceCodeLink: 'https://github.com/jacinto09/YoutubeClone'
   }
 ]
 

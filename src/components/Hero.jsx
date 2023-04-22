@@ -13,7 +13,7 @@ function Hero () {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText}`}>Hi I'm <span className='text-[#eeee4d]'>Jacinto</span></h1>
-          <p className={`${styles.heroSubText}`}>Frontend Developer</p>
+          <p className={`${styles.heroSubText}`}>Frontend Developer experienced in Reactjs and its enviroment</p>
         </div>
       </div>
       <LowpolyCanvas />
