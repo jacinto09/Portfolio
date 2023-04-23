@@ -10,7 +10,7 @@ const Ball = ({ imgUrl }) => {
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.65}>
-        <icosahedronGeometry args={[1, 1]} />
+        <boxGeometry args={[1, 1]} />
         <meshStandardMaterial
           color='#fff8eb'
           polygonOffset
@@ -20,7 +20,7 @@ const Ball = ({ imgUrl }) => {
         <Decal
           map={decal}
           rotation={[2 * Math.PI, 0, 6.25]}
-          position={[0, 0, 1]}
+          position={[0, 0, 0.5]}
           flatShading
         />
       </mesh>
