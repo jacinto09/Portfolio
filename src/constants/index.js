@@ -84,6 +84,29 @@ export const experiences = [
     company_name: 'Miguel Catalán',
     icon: reactjs,
     iconBg: '#383E56',
+    date: 'May  2023 - present',
+    points: [
+     "Technologies: React Native • React with redux • Next.js • GraphQL • Node.js",
+"Recreate the existing web app with more than 30k users from React16 to Next 14",
+"Improve UI/UX, accesibility, performance and SEO up to 90+ in lighthouse",
+"Rebuild the corporate page boosting the rendering time to 80% faster",
+"Agile and SOLID methodology",
+"Git quality practices",
+"Teamwork with backend and design team",
+"GraphQL querys implement for frontend from scratch",
+"Authorization routes with google, apple and credentials",
+"Bug fixes",
+"Debug and implement new features for the app in React Native",
+"Jira software",
+"Google Analitycs implementation",
+"Clean and documented code"
+    ]
+  },
+  {
+    title: 'Frontend Developer',
+    company_name: 'Xpeer MedEd',
+    icon: reactjs,
+    iconBg: '#383E56',
     date: 'February  2022 - August  2022',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
