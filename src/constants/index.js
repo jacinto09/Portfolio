@@ -81,7 +81,7 @@ export const technologies = [
 export const experiences = [
   {
     title: 'Frontend Developer',
-    company_name: 'Miguel Catalán',
+    company_name: 'Xpeer MedEd',
     icon: reactjs,
     iconBg: '#383E56',
     date: 'May  2023 - present',
@@ -104,7 +104,7 @@ export const experiences = [
   },
   {
     title: 'Frontend Developer',
-    company_name: 'Xpeer MedEd',
+    company_name: 'Miguel Catalán',
     icon: reactjs,
     iconBg: '#383E56',
     date: 'February  2022 - August  2022',
