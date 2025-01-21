@@ -161,25 +161,25 @@ export const projects = [
     sourceCodeLink: 'https://github.com/jacinto09/react-native-app'
   },
   {
-    name: 'Spotify Clone',
+    name: 'Resume Builder',
     description:
-    'Spotify clone using React, Redux, react-router and Tailwind, API management with axios',
+    'Resume builder enhanced with openai AI using Typescript, Next.js, Prisma, Clerk and Stripe',
     tags: [
       {
-        name: 'React',
+        name: 'Typescript',
         color: 'blue-text-gradient'
       },
       {
-        name: 'React Router',
+        name: 'OpenAi',
         color: 'green-text-gradient'
       },
       {
-        name: 'Redux',
+        name: 'Next.js',
         color: 'pink-text-gradient'
       }
     ],
     image: spoty,
-    sourceCodeLink: 'https://github.com/jacinto09/spotify-clone'
+    sourceCodeLink: 'https://github.com/jacinto09/cv-builder'
   },
   {
     name: 'Meals Finder',
