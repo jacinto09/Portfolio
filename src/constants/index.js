@@ -11,7 +11,7 @@ import {
   git,
   threejs,
   router,
-  spoty,
+  resumebuilder,
   jobs,
   meals,
   youtube
@@ -178,7 +178,7 @@ export const projects = [
         color: 'pink-text-gradient'
       }
     ],
-    image: spoty,
+    image: resumebuilder,
     sourceCodeLink: 'https://github.com/jacinto09/cv-builder'
   },
   {
