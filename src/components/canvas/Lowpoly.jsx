@@ -16,7 +16,22 @@ const Lowpoly = () => {
   )
 }
 const LowpolyCanvas = () => {
+  const [isMobile, setIsMobile] = useState(false)
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 500px)')
 
+    setIsMobile(mediaQuery.matches)
+
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches)
+    }
+
+    mediaQuery.addEventListener('change', handleMediaQueryChange)
+
+    return () => {
+      mediaQuery.removeEventListener('change', handleMediaQueryChange)
+    }
+  }, [])
   return (
     <Canvas
       frameloop='demand'
@@ -30,8 +45,9 @@ const LowpolyCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
+          enableRotate={isMobile ? false : true}
         />
-        <Lowpoly  />
+        <Lowpoly />
       </Suspense>
       <Preload all />
     </Canvas>
